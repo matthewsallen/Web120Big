@@ -1,0 +1,28 @@
+/* styles for tables */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+    
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #FF8C00; 
+    font-weight: 900;
+    font-size: 14px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-width: 1px; border-color: #000000;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.col1 {
+    width:10%
+}
