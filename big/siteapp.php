@@ -1,8 +1,18 @@
-<?php include 'includes/header.php';?>
+<?php 
+
+$page = "siteapp";
+
+$title = "Responsive Sites vs. Apps";
+
+$metaD = "siteapp";
+
+include 'includes/header.php';
+
+?>
     
 <!-- START LEFT COL -->
 <section>
- <h2 class="pageID">Responsive Sites vs. Web Apps</h2>
+
  <p>
      Responsive websites are accessed through a web browser just as an unresponsive site. However, they are more versatile and can change size and layout depending on the screen size, browser or device one is using. Mobile applications are software downloaded to a device that can perform similar functions as a website but are better suited to a mobile device. Websites are good for accessing information, but apps are better for completing a task.<br><br>
 
@@ -35,6 +45,5 @@
  
 
 <?php include 'includes/footer.php';?>
-</body>
-</html>
+
 

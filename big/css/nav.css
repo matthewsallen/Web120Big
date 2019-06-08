@@ -19,10 +19,12 @@
 #cssmenu a {
   line-height: 1.5;
 }
+
 #cssmenu {
   width: auto;
-  background: #fff;
+  background: whitesmoke;
 }
+
 #cssmenu > ul {
   border: 1px solid #000;
   -moz-box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.2);
@@ -165,3 +167,4 @@
 #cssmenu ul ul a:hover {
   color: #444;
 }
+
